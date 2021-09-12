@@ -1,0 +1,26 @@
+{
+  "name": "my-vue",
+  "version": "1.0.0",
+  "description": "手写mini版vue3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangyuhuan/my-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangyuhuan/my-vue/issues"
+  },
+  "homepage": "https://github.com/yangyuhuan/my-vue#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-jest": "^27.1.0"
+  }
+}
