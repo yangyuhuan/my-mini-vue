@@ -1,19 +1,19 @@
-### mini-vue主要功能
+### mini-vue 主要功能
 
 #### reactivity
 
-- [x]  reactive 的实现
-- [x]  readonly 的实现
-- [ ]  ref 的实现
-- [ ]  computed 的实现
-- [ ]  track 依赖收集
-- [ ]  trigger 触发依赖
+- [x] reactive 的实现
+- [x] readonly 的实现
+- [x] ref 的实现
+- [x] computed 的实现
+- [x] track 依赖收集
+- [x] trigger 触发依赖
 - [x] 支持 effect.scheduler
-- [x]  支持 effect.stop
-- [ ]  支持 isReactive
-- [ ]  支持嵌套 reactive
-- [ ]  支持 toRaw
-- [ ]  支持 isReadonly
-- [ ]  支持 isProxy
-- [ ]  支持 shallowReadonly
-- [ ]  支持 proxyRefs
+- [x] 支持 effect.stop
+- [x] 支持 isReactive
+- [x] 支持嵌套 reactive
+- [x] 支持 toRaw
+- [x] 支持 isReadonly
+- [x] 支持 isProxy
+- [x] 支持 shallowReadonly
+- [x] 支持 proxyRefs
