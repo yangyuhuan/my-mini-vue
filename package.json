@@ -2,10 +2,8 @@
   "name": "my-vue",
   "version": "1.0.0",
   "description": "手写mini版vue3",
-  //cjs -> main
-  //esm -> module
   "main": "lib/my-mini-vue.cjs.js",
-  "modules":"lib/my-mini-vue.esm.js",
+  "module": "lib/my-mini-vue.esm.js",
   "license": "ISC",
   "scripts": {
     "test": "jest",
