@@ -2,9 +2,14 @@
   "name": "my-vue",
   "version": "1.0.0",
   "description": "手写mini版vue3",
-  "main": "index.js",
+  //cjs -> main
+  //esm -> module
+  "main": "lib/my-mini-vue.cjs.js",
+  "modules":"lib/my-mini-vue.esm.js",
+  "license": "ISC",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +17,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/yangyuhuan/my-vue/issues"
   },
@@ -21,10 +25,14 @@
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.4",
     "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-typescript": "^8.3.0",
     "@types/jest": "^27.0.3",
-    "babel-jest": "^27.1.0"
+    "babel-jest": "^27.1.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
   },
   "dependencies": {
-    "jest": "^27.4.3"
+    "jest": "^27.4.3",
+    "rollup": "^2.66.1"
   }
 }
